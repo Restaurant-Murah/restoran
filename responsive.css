@@ -52,6 +52,12 @@
   }
 }
 
+@media (max-width: 670px) {
+  .logo p {
+    display: none;
+  }
+}
+
 @media (max-width: 425px) {
   .menu-terbaru,
   .menu-favorit,
