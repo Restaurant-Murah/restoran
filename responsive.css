@@ -1,0 +1,114 @@
+@media (min-width: 2560px) {
+  nav img {
+    width: 80px;
+  }
+
+  nav ul li {
+    font-size: 40px;
+  }
+
+  .logo p {
+    font-size: 40px;
+  }
+
+  .main h1 {
+    font-size: 90px;
+  }
+
+  form p {
+    font-size: 30px;
+  }
+
+  button {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1440px) {
+  nav img {
+    width: 50px;
+  }
+
+  nav ul li {
+    font-size: 20px;
+  }
+
+  .logo p {
+    font-size: 20px;
+  }
+
+  .main h1 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  nav img {
+    width: 32px;
+  }
+
+  .main h1 {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 425px) {
+  .menu-terbaru,
+  .menu-favorit,
+  .hot-menu,
+  .minuman-menu {
+    display: flex;
+    justify-content: center;
+  }
+
+  .ayam,
+  .hot,
+  .minuman {
+    width: 70%;
+  }
+
+  #body-menu h1 {
+    font-size: 18px;
+  }
+
+  nav img {
+    width: 30px;
+  }
+
+  .logo p {
+    display: none;
+  }
+
+  .main h1 {
+    font-size: 25px;
+  }
+
+  .logo-contact ul li {
+    font-size: 10px;
+  }
+
+  button {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 375px) {
+  .navbar {
+    display: none;
+  }
+
+  .icon {
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo-contact ul li {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 320px) {
+  .logo-contact ul li {
+    font-size: 7px;
+  }
+}

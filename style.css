@@ -1,0 +1,362 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  background-color: #dd7719;
+}
+
+/* Nav Start */
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f34646;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  height: 10vh;
+  list-style: none;
+  color: white;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+.logo {
+  display: flex;
+  padding: 20;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+nav img {
+  width: 40px;
+  height: auto;
+  border-radius: 50%;
+  margin: 15px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: auto 40px;
+}
+nav ul li {
+  display: block;
+  padding: auto 15px;
+  margin: 0 10px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  background-color: #dd7719;
+  height: auto;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+}
+
+.icon {
+  color: white;
+  display: none;
+}
+/* Nav End */
+
+/* Main Start */
+.main {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-image: url(img/main.png);
+  filter: saturate(1);
+  opacity: 0.8;
+}
+
+.main h1 {
+  color: black;
+  text-shadow: 2px 2px white;
+  margin: 0 20px;
+}
+/* Main End */
+
+/* Body Start */
+#body-menu {
+  width: 100%;
+  height: auto;
+  background-color: #dd7719;
+}
+
+#body-menu svg {
+  margin-bottom: -10px;
+}
+
+#body-menu h1 {
+  width: 30%;
+  margin: 100px 50px 0 50px;
+  background-color: #f34646;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 50px;
+  color: white;
+  font-family: 'Delius Unicase', cursive;
+}
+
+#body-menu h2 {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: -15px;
+  font-size: 60px;
+  color: white;
+  font-family: 'Baloo Bhai 2', cursive;
+  text-shadow: 1px 1px 1px #919191, 1px 2px 1px #919191, 1px 3px 1px #919191, 1px 4px 1px #919191, 1px 5px 1px #919191, 1px 6px 1px #919191, 1px 7px 1px #919191, 1px 8px 1px #919191, 1px 9px 1px #919191, 1px 10px 1px #919191,
+    1px 18px 6px rgba(16, 16, 16, 0.4), 1px 22px 10px rgba(16, 16, 16, 0.2), 1px 25px 35px rgba(16, 16, 16, 0.2), 1px 30px 60px rgba(16, 16, 16, 0.4);
+}
+
+.menu-terbaru {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  color: white;
+}
+
+.menu-terbaru a {
+  color: white;
+  text-decoration: none;
+}
+
+.ayam {
+  padding: 20px;
+  background-color: #f34646;
+  margin: 10px;
+  border-radius: 30%;
+  text-align: center;
+  width: 40%;
+  border: 2px solid black;
+}
+
+.ayam img {
+  border-radius: 50%;
+  border: 2px solid black;
+  width: 75%;
+}
+
+.ayam h4 {
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: 'ABeeZee', sans-serif;
+  font-weight: bold;
+}
+.ayam p {
+  font-size: 20px;
+  margin-top: 20px;
+  font-family: 'ABeeZee', sans-serif;
+  font-weight: bold;
+}
+
+.ayam:hover {
+  transition: all 0.5s;
+  transform: scale(1.1);
+  background-color: lightsalmon;
+  color: black;
+  cursor: pointer;
+}
+
+.menu-favorit {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  color: white;
+}
+
+.menu-favorit a {
+  color: white;
+  text-decoration: none;
+}
+
+.hotty {
+  font-family: 'Bigelow Rules', cursive;
+  font-size: 100px;
+}
+
+.hot-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  color: white;
+}
+
+.hot-menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.hot {
+  background-color: #f34646;
+  border-radius: 30%;
+  text-align: center;
+  width: 20%;
+  margin: 10px;
+  border: 2px solid black;
+}
+
+.hot:hover {
+  transition: all 0.5s;
+  transform: scale(1.1);
+  background-color: lightsalmon;
+  color: black;
+  cursor: pointer;
+}
+
+.hot img {
+  border-radius: 50%;
+  width: 75%;
+  margin-top: 10px;
+  border: 2px solid black;
+}
+
+.hot h4 {
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: 'ABeeZee', sans-serif;
+  font-weight: bold;
+}
+.hot p {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'ABeeZee', sans-serif;
+  font-weight: bold;
+}
+
+.minuman-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  color: white;
+}
+
+.minuman-menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.minuman {
+  background-color: #f34646;
+  border-radius: 30%;
+  text-align: center;
+  width: 20%;
+  margin: 10px;
+  border: 2px solid black;
+}
+
+.minuman:hover {
+  transition: all 0.5s;
+  transform: scale(1.1);
+  background-color: lightsalmon;
+  color: black;
+}
+
+.minuman img {
+  border-radius: 50%;
+  width: 75%;
+  margin-top: 10px;
+  border: 2px solid black;
+}
+
+.minuman h4 {
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: 'ABeeZee', sans-serif;
+  font-weight: bold;
+}
+.minuman p {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'ABeeZee', sans-serif;
+  font-weight: bold;
+}
+/* Body End */
+
+/* Footer Start */
+footer {
+  background-color: #f34646;
+  width: 100%;
+  height: auto;
+}
+
+.wrapper-footer h1 {
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.text-form {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  width: 50%;
+  text-align: left;
+}
+
+form p {
+  margin: 8px auto;
+  color: white;
+}
+
+form input {
+  height: 5vh;
+  width: 100%;
+}
+
+form textarea {
+  height: 15vh;
+  width: 100%;
+}
+
+button {
+  height: 7vh;
+  width: 40%;
+}
+
+select {
+  width: 40%;
+  height: 3vh;
+}
+
+.logo-contact {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-contact ul li {
+  list-style: none;
+  padding: 20px 20px;
+}
+
+.logo-contact ul {
+  display: flex;
+  margin: 20px;
+}
+
+.icon-contact2 {
+  display: none;
+}
+/* Footer End */
