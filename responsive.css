@@ -52,11 +52,6 @@
   }
 }
 
-@media (max-width: 670px) {
-  .logo p {
-    display: none;
-  }
-}
 
 @media (max-width: 425px) {
   .menu-terbaru,
@@ -71,6 +66,10 @@
   .hot,
   .minuman {
     width: 70%;
+  }
+  
+  .navbar li a {
+    font-size: 11px;
   }
 
   #body-menu h1 {
